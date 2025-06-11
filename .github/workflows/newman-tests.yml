@@ -21,4 +21,4 @@ jobs:
         run: npm install -g newman
 
       - name: Run API tests
-        run: newman run postman_collection.json -e postman_environment.json
+        run: newman run postman_collection.json
